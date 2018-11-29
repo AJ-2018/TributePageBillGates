@@ -1,0 +1,112 @@
+/*      Universal Styles      */
+
+body{
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 2rem;
+  background-image: linear-gradient(90deg, rgb(204,153,255), rgb(245,245,220));
+}
+
+#title{
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Allerta Stencil", sans-serif;
+  text-transform: uppercase;
+}
+
+#img-div{
+  margin: 5rem;
+  padding: 2rem;
+  border: 0.0625rem solid rgb(0, 0, 0);
+  background-color: rgb(210,180,140);
+}
+
+#image{
+  max-width: 100%;
+  display: block;
+}
+
+#img-caption{
+  margin: 1.5rem 2rem 0.5rem 2rem;
+  font-family: "Cormorant Upright", sans-serif;
+  font-weight: 700;
+  word-spacing: 0.2rem;
+  line-height: 1.3rem;
+  font-size: 1.5rem;
+}
+
+
+/*   Main tribute section   */
+
+#tribute-info{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+#tribute-info h3{
+  font-size: 2rem;
+  padding: 0.8rem 0;
+  font-family: "Open-Sans", sans-serif;
+}
+
+ul{
+  list-style-type: square;
+}
+
+#tribute-info li{
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+strong{
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255,255,0);
+}
+
+
+/*   Additional info section   */
+
+.quote{
+  margin: 8rem;
+  padding: 3rem;
+  border: 0.0625rem solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+#img-quote{
+  max-width: 100%;
+  display: block;
+}
+
+.img-caption{
+  margin: 1.5rem 2rem 0.5rem 2rem;
+  font-family: "Cormorant Upright", sans-serif;
+  font-weight: 700;
+  word-spacing: 0.2rem;
+  line-height: 1.3rem;
+  font-size: 1.5rem;
+  color: rgb(51,51,0);
+}
+
+
+.reference{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 900px){
+
+  #img-div{
+    margin: 2rem;
+    padding: 2rem;
+    border: 0.0625rem solid rgb(0, 0, 0);
+    background-color: rgb(210,180,140);
+  }
+
+  .quote{
+    margin: 2rem;
+    padding: 0.5rem;
+  }
+}
